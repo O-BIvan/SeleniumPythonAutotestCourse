@@ -13,13 +13,13 @@ def calc(x):
 
 
 try:
-    # Задаем переменную для webdriver, для краткности
+    # Задаем переменную для webdriver, для краткости
     # Переходим по ссылке
     browser = webdriver.Chrome()
     browser.get(link)
 
     # Находим элемент-кнопку button
-    # Нажимаем на на нее
+    # Нажимаем на нее
     button1 = browser.find_element_by_css_selector("button.btn")
     button1.click()
 
