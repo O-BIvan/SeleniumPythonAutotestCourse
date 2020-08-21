@@ -35,7 +35,7 @@ try:
     button2.click()
 
     # Копируем число-ответ из окна alert в буфер
-    # Закоментировать, если не нужно
+    # Закоментировать, если ненужно
     # Должны быть установлены: xclip/xcel, pyperclip в виртуальной среде
     # Спасибо Vitaliy Ya ("https://stepik.org/users/104430773")
     alert = browser.switch_to.alert
