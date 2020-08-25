@@ -1,7 +1,9 @@
+import os
+import time
+
 from selenium import webdriver
 import pyperclip
-import time
-import os
+
 
 link = "http://suninjuly.github.io/file_input.html"
 
