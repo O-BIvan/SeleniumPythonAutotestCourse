@@ -7,6 +7,7 @@ import pytest
 # н., def suite_data... ...Suite teardown")
 # yield - генератор (см. lesson3_step5_fixture_example4.py)
 # autouse - см. lesson3_step6_fixture_autouse.py
+# scope - указывает, что данная фикстура выполняется для: class, function, module, session
 
 
 @pytest.fixture(scope='class', autouse=True)  # "Настройки" для тест-СЦЕНАРИЯ - запускаются для всех тестов в наборе
