@@ -1,11 +1,12 @@
 import time
+
 import pytest
 
 # Справка: тест-СЦЕНАРИЙ - набор кейсов (обычно объединен одной тематикой: смоук-тест, тестирование страницы с котом)
 # Фикстура, в данном случае, весь код после @pytest.fixture и до следующей @pytest.fixture
 # н., def suite_data... ...Suite teardown")
 # yield - генератор (см. lesson3_step5_fixture_example4.py)
-# autouse - см. lesson3_step6_fixture_example5.py
+# autouse - см. lesson3_step6_fixture_autouse.py
 
 
 @pytest.fixture(scope='class', autouse=True)  # "Настройки" для тест-СЦЕНАРИЯ - запускаются для всех тестов в наборе
