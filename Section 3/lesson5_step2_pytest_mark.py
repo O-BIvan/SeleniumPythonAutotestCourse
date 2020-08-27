@@ -29,7 +29,7 @@ class TestMainPage1:
         browser.get(link)
         browser.find_element_by_css_selector(".basket-mini .btn-group > a")
 
-# Если mark не зарегестрирована, то pytest выдает предупреждения об этом
+# Если mark не зарегистрирована, то pytest выдает предупреждения об этом
 # Для регистрации  необходимо в корне проекта создать файл pytest.ini
 # И добавить туда необходимые mark:
 #
